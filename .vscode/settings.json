@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "css.validate": false,
+    "stylelint.enable": true,
+    "files.exclude": {
+        ".all/": true
+    }
+}
