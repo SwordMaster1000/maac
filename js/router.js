@@ -193,10 +193,8 @@ HTMLDivElement.prototype._loadView = function (data) {
         this._hideSpinner();
     }.bind(this);
     xhr.responseType = 'document';
-    setTimeout(function () {
-        xhr.open('GET', data[0] + '?partial');
-        xhr.send();
-    }, 5000);
+    xhr.open('GET', data[0] + '?partial');
+    xhr.send();
 };
 
 
