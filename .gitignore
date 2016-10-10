@@ -1,1 +1,4 @@
 .all
+static/js
+static/css
+.gitignore
