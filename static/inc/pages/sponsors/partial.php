@@ -15,10 +15,10 @@
         Top Sponsors
     </h1>
     <p class="top-sponsors">
-        <img src="/static/imgs/field.png" alt="um">
-        <img src="/static/imgs/logo.png" alt="um">
-        <img src="/static/imgs/southsbest.jpg" alt="um">
-        <img src="/static/imgs/logo.png" alt="um">
+        <img src="/static/imgs/logos/HIS.png" alt="um">
+        <img src="/static/imgs/logos/locale.png" alt="um">
+        <img src="/static/imgs/logos/PCM.png" alt="um">
+        <img src="/static/imgs/logos/silverships.png" alt="um">
         <img src="/static/imgs/best.gif" alt="um">
         <img src="/static/imgs/field.png" alt="um">
         <img src="/static/imgs/best.gif" alt="um">

@@ -229,7 +229,8 @@ header {
             display: block;
         }
     }
-    &.pending:before, &.pending:after {
+    &.pending:before,
+    &.pending:after {
         opacity: 1;
     }
 }
@@ -333,6 +334,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: column;
     height: auto;
     position: relative;
     padding: 25px 0 60px 0;
@@ -366,6 +368,15 @@ header {
             left: 100%;
             top: 50%;
             margin-left: 20px;
+        }
+    }
+    button {
+        background: $dark_green;
+        color: #fff;
+        width: 200px;
+        margin-top: 10px;
+        &:after {
+            background: $light_green_darker;
         }
     }
 }
@@ -453,7 +464,7 @@ footer {
     }
 }
 
-.viewing ~ footer {
+.viewing~footer {
     opacity: 1;
     transition: opacity 0.2s 1s;
 }
@@ -530,9 +541,8 @@ button {
             width: 80%;
             margin: 10px 0;
             &.robotthing {
-                width: 162px;
+                width: 142px;
                 float: left;
-                shape-outside: polygon(nonzero, 0px 0px, 138px 0px, 150px 35px, 148px 87px, 92px 124px, 24px 122px);
             }
         }
         h2 {
