@@ -1,9 +1,9 @@
 <footer>
     <div class="contact-info">
-        <span>Email: machrobos@gmail.com</span><br>
-        <span>Facebook: facebook.com/maac</span><br>
-        <span>Instagram: instagram.com/maac</span><br>
-        <span>Twitter: twitter.com/maac</span><br>
+        <span>Email: <a href="mailto:machrobos2016@gmail.com">machrobos2016@gmail.com</a></span><br>
+        <span><a target="_blank" href="https://www.facebook.com/profile.php?id=100013625321857">Facebook</a></span><br>
+        <span><a target="_blank" href="https://www.instagram.com/m.a.a.c.robotics/">Instagram</a></span><br>
+        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
     </div>
     <div class="meta">
         <span>School: MACH</span><br>
