@@ -157,6 +157,10 @@ header {
             height: 0;
             opacity: 0;
             transition: opacity 0.2s;
+            &.tmp_close {
+                pointer-events: none !important;
+                opacity: 0 !important;
+            }
             .btn {
                 &:before,
                 &:after {
@@ -569,6 +573,7 @@ button {
     height: 80px;
     background: $dark_green;
     color: #fff;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
     top: -20px;
     padding-top: 20px;
     padding-left: 10%;
@@ -608,6 +613,7 @@ button {
     color: #fff;
     top: -20px;
     padding-bottom: 40px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
     padding-left: 10%;
     margin: 0;
     margin-top: 60px;
@@ -642,9 +648,71 @@ button {
     }
 }
 
+.ourcompany__heading {
+    background: url(/static/imgs/ourcompany-heading.svg);
+    background-size: 100% 100%;
+    position: relative;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 100px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.ourcompany__img {
+    position: relative;
+    margin: 0;
+    left: 15%;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ourcompany__about {
+    background: $dark_green;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    padding: 20px 20% 100px 20%;
+    margin-top: 100px;
+    &:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: -90px;
+        width: 100%;
+        left: 0;
+        height: 100px;
+        background: url(/static/imgs/ourcompany-about.svg);
+    }
+    .hr {
+        display: block;
+        width: 100%;
+        height: 1px;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        background: #fff;
+    }
+}
+
 @media (max-width:850px) {
     .page__base {
         transform: none;
+    }
+    .ourcompany__heading {
+        height: 180px;
+        padding: 0 20px;
+        padding-bottom: 30px;
+    }
+    .ourcompany__img {
+        width: 90%;
+        left: 5%;
     }
     .nav-btn {
         display: block;
