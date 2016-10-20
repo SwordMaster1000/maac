@@ -1,8 +1,1 @@
-<svg preserveAspectRatio="none" viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <polygon id="a" points="0 0  1500 0  1500 90  1200 120 0 90"></polygon>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <use fill="#AD262E" xlink:href="#a" />
-    </g>
-</svg>
+<svg preserveAspectRatio="none" viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h1500v90l-300 30L0 90z"/></defs><use fill="#AD262E" xlink:href="#a" fill-rule="evenodd"/></svg>

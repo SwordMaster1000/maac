@@ -19,3 +19,4 @@
 </div>
 <div class="page__base" data-remote="true" data-route="^\/sponsors\/?(.*)$"></div>
 <div class="page__base" data-remote="true" data-route="^\/contactus\/?(.*)$"></div>
+<div class="page__base" data-remote="true" data-route="^\/ourcompany\/spirit\/?(.*)$"></div>

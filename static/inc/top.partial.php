@@ -28,6 +28,9 @@
                             <a href="/ourcompany/boardofdirectors">
                                 <div class="btn">Board Of Directors</div>
                             </a>
+                            <a href="/ourcompany/spirit">
+                                <div class="btn">Spirit</div>
+                            </a>
                             <a href="/ourcompany/roboticsdivision">
                                 <div class="btn">Robotics Division</div>
                             </a>

@@ -46,3 +46,4 @@
     </p>
 </div>
 <div class="page__base" data-remote="true" data-route="^\/contactus\/?(.*)$"></div>
+<div class="page__base" data-remote="true" data-route="^\/ourcompany\/spirit\/?(.*)$"></div>
