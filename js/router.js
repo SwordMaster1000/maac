@@ -60,6 +60,8 @@ function jRouter() {
     window.addEventListener('popstate', function () {
         router.go(window.location.href);
     });
+
+    this.onremoteviewloaded = [];
 }
 jRouter.prototype.addRoute = function (route, view) {
     if (this.routes.has(route)) {
@@ -100,6 +102,25 @@ jRouter.prototype._addRoutes = function () {
 };
 jRouter.prototype._removeRoutes = function () {
     this.routes.clear();
+};
+
+jRouter.prototype.on = function (evt, fn) {
+    jRouter['on' + evt] = jRouter['on' + evt] || [];
+    if (fn)
+        jRouter['on' + evt].push(fn);
+    else {
+        for (var i = 0; i < jRouter['on' + evt].length; i++) {
+            if (jRouter['on' + evt][i] !== null)
+                jRouter['on' + evt][i]();
+        }
+    }
+};
+jRouter.prototype.removeListener = function (evt, fn) {
+    for (var i = 0; i < jRouter['on' + evt].length; i++) {
+        if (jRouter['on' + evt][i] === fn) {
+            jRouter['on' + evt][i] = null;
+        }
+    }
 };
 
 jRouter.prototype._onChanged = function () {
@@ -146,6 +167,10 @@ jRouter.prototype.go = function (url) {
 
 window.addEventListener('load', function () {
     router = new jRouter();
+    for (var i = 0; i < window.onrouterload.length; i++) {
+        window.onrouterload[i]();
+    }
+    router.on('remoteviewloaded');
 });
 // Elements
 HTMLDivElement.prototype._spinnerTimeout = undefined;
@@ -161,19 +186,6 @@ HTMLDivElement.prototype._showSpinner = function () {
     this.classList.add('pending');
 };
 
-HTMLDivElement.prototype._initScripts = function (view) {
-    var scripts = view.getAttribute('data-scripts');
-
-    if (scripts === null)
-        return;
-    scripts = scripts.split(',');
-    for (var scpt = 0, sl = scripts.length; scpt < sl; scpt++) {
-        var s = document.createElement('script');
-        s.src = scripts[scpt];
-        document.body.appendChild(s);
-    }
-};
-
 HTMLDivElement.prototype._loadView = function (data) {
     // Wait for half a second then show the spinner.
     var spinnerTimeout = setTimeout(function () {
@@ -186,11 +198,11 @@ HTMLDivElement.prototype._loadView = function (data) {
     xhr.onload = function (evt) {
         var newView = evt.target.response.querySelector('.page__base.viewing');
         this.innerHTML = newView.innerHTML;
-        this._initScripts(newView);
         router._addRoutes();
         // Clear the timeout and remove the spinner if needed.
         clearTimeout(spinnerTimeout);
         this._hideSpinner();
+        router.on('remoteviewloaded');
     }.bind(this);
     xhr.responseType = 'document';
     xhr.open('GET', data[0] + '?partial');
@@ -208,8 +220,8 @@ HTMLDivElement.prototype.in = function (data) {
             this.removeEventListener(transitionend, onTransitionEnd);
             resolve();
         };
-        this.style.overflow = '';
-        this.style.height = '';
+        this.classList.remove('hide-view');
+        this.classList.remove('pending');
         this.classList.add('viewing');
         this.addEventListener(transitionend, onTransitionEnd);
     }.bind(this));
@@ -220,9 +232,7 @@ HTMLDivElement.prototype.out = function (data) {
     return new Promise(function (resolve) {
         var onTransitionEnd = function () {
             window.scrollTo(0, 0);
-            this.style.overflow = 'hidden';
-            this.style.height = 0;
-
+            this.classList.add('hide-view');
             this.removeEventListener(transitionend, onTransitionEnd);
             resolve();
         };

@@ -191,6 +191,10 @@ header {
     position: relative;
     width: 100%;
     padding: 0;
+    &.hide-view {
+        height: 0;
+        overflow: hidden;
+    }
     &.viewing {
         padding-top: 70px;
         transition: transform 0.2s, opacity 0.2s, padding 0s linear 0s;
@@ -203,8 +207,8 @@ header {
         width: 100px;
         height: 100px;
         left: 50%;
-        top: 50%;
-        z-index: 100000000;
+        top: 300px;
+        z-index: 10000000000;
         margin: -50px;
         background: no-repeat url(/static/imgs/logo-icon-gray.png);
         background-size: contain;
@@ -222,13 +226,13 @@ header {
         content: '';
         position: fixed;
         width: 100%;
-        height: 100%;
+        height: 400px;
         pointer-events: none;
         display: none;
         opacity: 0;
         transition: opacity 0.2s;
         background: #fff;
-        z-index: 10000000;
+        z-index: 1000000000;
         .csspointerevents & {
             display: block;
         }
@@ -236,6 +240,16 @@ header {
     &.pending:before,
     &.pending:after {
         opacity: 1;
+    }
+}
+
+.contact-thankyou {
+    text-align: center;
+    padding: 40px 20px 100px 20px;
+    button {
+        margin: 20px;
+        width: 120px;
+        color: #fff;
     }
 }
 
@@ -259,6 +273,15 @@ header {
     bottom: 0;
     pointer-events: none;
     z-index: 1;
+}
+
+.reseach-paper {
+    width: 100%;
+    padding: 20px 20% 100px 20%;
+    font-size: 20px;
+    a {
+        color: $redish;
+    }
 }
 
 .slope-bottom:after {
@@ -441,6 +464,7 @@ footer {
     transition: opacity 0.2s;
     background: #fff;
     padding: 20px;
+    z-index: 100;
     a {
         color: inherit;
     }
@@ -471,6 +495,9 @@ footer {
 .viewing~footer {
     opacity: 1;
     transition: opacity 0.2s 1s;
+}
+.viewing.pending~footer, .pending {
+    opacity: 0;
 }
 
 button {
@@ -701,12 +728,79 @@ button {
     }
 }
 
+.contactus__heading {
+    background: url(/static/imgs/contact-top.svg);
+    background-size: 100% 100%;
+    position: relative;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+    height: 100px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.contactus__form {
+    padding: 20px 20%;
+    label {
+        display: block;
+        margin: 20px 0 -10px 0;
+        font-size: 20px;
+        font-weight: bold;
+        text-shadow: 0 3px 4px rgba(0,0,0,0.3);
+    }
+    input {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #000;
+        outline:none;
+        font-size: 18px;
+        transition: box-shadow 0.15s;
+        &:focus {
+            box-shadow: 0 0 3px 1px $light_green;
+        }
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    textarea {
+        transition: box-shadow 0.15s;
+        position: relative;
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+        border-radius: 3px;
+        resize: vertical;
+        border: 1px solid #000;
+        outline:none;
+        font-size: 18px;
+
+        &:focus {
+            box-shadow: 0 0 3px 1px $light_green;
+        }
+    }
+
+    .animated.shake {
+        box-shadow: 0 0 3px 1px $redish;
+    }
+}
+
 @media (max-width:850px) {
     .page__base {
         transform: none;
     }
     .ourcompany__heading {
-        height: 180px;
+        height: 190px;
         padding: 0 20px;
         padding-bottom: 30px;
     }
@@ -717,6 +811,13 @@ button {
     .ourcompany__about {
         padding: 20px 10% 100px 10%;
         margin-top: 100px;
+    }
+    .reseach-paper {
+        padding: 20px 10% 100px 10%;
+    }
+    .contactus__form {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .nav-btn {
         display: block;

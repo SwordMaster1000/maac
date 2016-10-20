@@ -25,23 +25,23 @@
                     <div class="btn dropdown" tabindex="0" aria-label="Our company, dropdown menu">
                         Our Company
                         <div class="dropdown__content">
-                            <a href="/ourcompany/visionaries">
-                                <div class="btn">Visionaries</div>
+                            <a href="/ourcompany/boardofdirectors">
+                                <div class="btn">Board Of Directors</div>
                             </a>
-                            <a href="/ourcompany/roboticsdepartment">
-                                <div class="btn">Robotics Department</div>
+                            <a href="/ourcompany/roboticsdivision">
+                                <div class="btn">Robotics Division</div>
                             </a>
-                            <a href="/ourcompany/notebookdepartment">
-                                <div class="btn">Notebook Department</div>
+                            <a href="/ourcompany/notebookdivision">
+                                <div class="btn">Engineering Notebook</div>
                             </a>
-                            <a href="/ourcompany/displaydepartment">
-                                <div class="btn">Display Department</div>
+                            <a href="/ourcompany/displaydivision">
+                                <div class="btn">Display Division</div>
                             </a>
-                            <a href="/ourcompany/mediadepartment">
-                                <div class="btn">Media Department</div>
+                            <a href="/ourcompany/mediadivision">
+                                <div class="btn">Media Division</div>
                             </a>
-                            <a href="/ourcompany/marketingdepartment">
-                                <div class="btn">Marketing Department</div>
+                            <a href="/ourcompany/marketingdivision">
+                                <div class="btn">Marketing Division</div>
                             </a>
                         </div>
                     </div>

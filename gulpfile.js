@@ -16,7 +16,7 @@ function swallowError (error) {
 }
 
 // Static Server + watching scss/html files
-gulp.task('serve', ['css'], function () {
+gulp.task('serve', ['css', 'js'], () => {
 
     browserSync.init({
         proxy: 'localhost'
@@ -24,7 +24,26 @@ gulp.task('serve', ['css'], function () {
     gulp.watch('sass/*.scss', ['css']);
     gulp.watch('**/*.html').on('change', browserSync.reload);
     gulp.watch('**/*.php').on('change', browserSync.reload);
+    gulp.watch('js/*.js', ['jsReload']);
+});
+
+gulp.task('no-reload', ['css', 'js'], () => {
+    
+    browserSync.init({
+        proxy: 'localhost'
+    });
+    gulp.watch('sass/*.scss', ['css']);
     gulp.watch('js/*.js', ['js']);
+});
+
+gulp.task('jsReload', () => {
+    gulp.src('js/*.js')
+        .pipe(concat('bundle.js'))
+        .pipe(uglify())
+        .on('error', swallowError)
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('static/js'));
+    browserSync.reload();
 });
 
 gulp.task('js', () => {
