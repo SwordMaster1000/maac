@@ -27,7 +27,7 @@ if ($cname !== false) {
 }
 
 $headers = "From: MACH Automated Agricultural Company <$email>";
-$to = "machrobotics@hotmail.com, ".$email;
+$to = "machrobotics@hotmail.com";
 mail($to, $subject, $msg, $headers);
-
+header('Location: /home');
 ?>

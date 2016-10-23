@@ -9,6 +9,7 @@ waitFrame = requestAnimationFrame || function (cb) {
     cb();
 };
 
+// Creates a form that will send info to the server over an AJAX Request (XMLHttpRequest)
 function Form(form) {
     var self = this;
     this.form = form;

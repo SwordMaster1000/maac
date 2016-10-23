@@ -1,6 +1,11 @@
 <div class="viewing page__base" data-route="^(?:\/home|\/index\.php|\/$)(?:\/)?(.*)$">
     <div class="masthead slope__top">
-        <video class="animated fadeIn js-hide-if-idevice" src="/static/imgs/videos/corn-unblured.mp4" muted autoplay loop preload></video>
+        <!--
+            Video from http://www.shutterstock.com/
+            Web Clip: 4563710
+            Order confirmation number is 36119299
+        -->
+        <video class="animated fadeIn js-hide-if-idevice" src="/static/imgs/videos/corn-unblured.mov" muted autoplay loop preload></video>
         <h2>
             <span class="M">M</span>ACH<br>
             <span class="A">A</span>utomated<br>
@@ -8,7 +13,7 @@
             <span class="C">C</span>ompany<br>
         </h2>
         
-        <img width="500" src="/static/imgs/robot.png" alt="Photo of ALPHA (the robot)">
+        <img width="500" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
         
     </div>
     <div class="animated fadeIn home__section1 slope-bottom">
@@ -30,7 +35,7 @@
     <div class="home__cards">
         <div class="card">
             <h2 class="title">What is ALPHA?</h2>
-            <img class="robotthing" src="/static/imgs/robot.png" alt="The ALPHA robot">
+            <img class="robotthing" src="/static/imgs/alpha.png" alt="The ALPHA robot">
             <p class="card-detail">
                 ALPHA is the Automated Laborer of Planting and Harvesting in Agriculture. If you're interested in efficient, effective farming,
                 ALPHA is the perfect addition to your farm.

@@ -1,5 +1,5 @@
 <?php
-
+define('__MODE__', ($_SERVER['HTTP_HOST'] === 'localhost') ? 'local' : 'live');
 $_request_url = $_SERVER['REQUEST_URI'];
 $partial = isset($_GET['partial']);
 
@@ -19,7 +19,7 @@ if ($request_url === '/favicon.ico') {
 
 header('cache-control: public, no-cache');
 
-if ($request_url === '/' || $request_url === '/index.php') {
+if ($request_url === '' | $request_url === '/' || $request_url === '/index.php') {
     $request_url = '/home';
 }
 

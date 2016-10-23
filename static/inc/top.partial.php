@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js icons-loading">
+<html class="no-js">
 <head>
     <meta charset="UTF-8">
     <title>MAAC Robotics</title>
@@ -9,7 +9,7 @@
 <body>
     <header class="header">
         <embed class="header--angle" src="/static/imgs/header.svg" type="image/svg+xml"></embed>
-        <img draggable="false" src="/static/imgs/logo.png" alt="Official logo of M.A.A.C." class="logo">
+        <a href="/"><img draggable="false" src="/static/imgs/logo.png" alt="Official logo of M.A.A.C." class="logo"></a>
         <div class="nav__base">
             <div class="backdrop"></div>
             <div class="nav-btn" aria-label="Toggle navigation menu">
@@ -29,7 +29,7 @@
                                 <div class="btn">Board Of Directors</div>
                             </a>
                             <a href="/ourcompany/spirit">
-                                <div class="btn">Spirit</div>
+                                <div class="btn">Spirit Division</div>
                             </a>
                             <a href="/ourcompany/roboticsdivision">
                                 <div class="btn">Robotics Division</div>

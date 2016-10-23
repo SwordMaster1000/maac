@@ -1,10 +1,6 @@
-/*!
- * main.css
- */
-
-$dark_green: rgb(48, 103, 66);
-$light_green: rgb(24, 135, 84);
-$light_green_darker: rgb(18, 100, 62);
+$dark_green: #306742;
+$light_green: #188754;
+$light_green_darker: #12643e;
 $redish: rgb(173, 38, 46);
 $dark_redish: #770000;
 .js-is-idevice .js-hide-if-idevice {
@@ -13,6 +9,14 @@ $dark_redish: #770000;
 
 * {
     box-sizing: border-box;
+}
+
+video {
+    display: none;
+}
+
+.viewing video {
+    display: block;
 }
 
 body {
@@ -38,7 +42,7 @@ header {
     .svg & {
         background: transparent;
     }
-    >.logo {
+    >a>.logo {
         position: relative;
         height: 80%;
         margin: 10px;
@@ -79,6 +83,7 @@ header {
         outline: none;
         font-weight: 700;
         color: #333;
+        font-size: 14px !important;
         display: block;
         width: 120px;
         text-align: center;
@@ -167,7 +172,7 @@ header {
                     display: none;
                 }
                 color: #fff;
-                font-size: 14px;
+                font-size: 13px !important;
                 top: 0;
                 width: 100%;
                 transition: background 0.1s;
@@ -187,7 +192,6 @@ header {
     transition: transform 0.2s, opacity 0.2s, padding 0s linear 0.2s;
     opacity: 0;
     transform: scale(0.95);
-    will-change: transform;
     position: relative;
     width: 100%;
     padding: 0;
@@ -278,9 +282,114 @@ header {
 .reseach-paper {
     width: 100%;
     padding: 20px 20% 100px 20%;
-    font-size: 20px;
+    font-size: 20px !important;
     a {
         color: $redish;
+    }
+}
+
+.ourproduct {
+    >p {
+        margin: 0 20%;
+        top: -1px;
+    }
+    p {
+        padding: 0 20px;
+        font-size: 25px;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 100px;
+            border-radius: 5px;
+            background: #ccc;
+            right: 100%;
+            top: 50%;
+            margin-right: 20px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 100px;
+            border-radius: 5px;
+            background: #ccc;
+            left: 100%;
+            top: 50%;
+            margin-left: 20px;
+        }
+    }
+    hr {
+        width: 90%;
+        margin: 40px auto;
+        background: $redish;
+        border: 0;
+        height: 2px;
+    }
+    >span {
+        background: #eee;
+        padding-bottom: 100px;
+        display: block;
+    }
+    .detail {
+        width: 100%;
+        min-height: 240px;
+        padding: 20px;
+        background: #fff;
+        img {
+            max-height: 190px;
+            max-width: 100%;
+            float: left;
+            margin: 0 20px 0 0;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            padding: 0;
+            &:before,
+            &:after {
+                display: none;
+            }
+        }
+        &:nth-child(even) {
+            background: #eee;
+            img {
+                float: right;
+                margin: 0 0 0 20px;
+            }
+            text-align: right;
+        }
+    }
+}
+
+.ourproduct__masthead {
+    width: 100%;
+    height: 400px;
+    background: url(/static/imgs/alpha.jpg) center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    overflow: hidden;
+    top: -50px;
+    video {
+        height: 100%;
+        box-shadow: 0 0 100px 30px rgba(214, 216, 230, .5);
+    }
+    &:after {
+        content: '';
+        width: 100%;
+        height: 50px;
+        background: url(/static/imgs/masthead-top.svg) center center no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        pointer-events: none;
+        z-index: 100;
     }
 }
 
@@ -334,7 +443,7 @@ header {
         padding: 0;
         color: #fff;
         text-shadow: 0 3px 60px #000, 0 3px 5px #000, 0 0 3px rgba(0, 0, 0, 1);
-        font-size: 50px;
+        font-size: 50px !important;
         width: auto;
         position: relative;
         span {
@@ -368,7 +477,7 @@ header {
     width: 100%;
     overflow: hidden;
     p {
-        font-size: 25px;
+        font-size: 25px !important;
         text-align: center;
         width: 60%;
         position: relative;
@@ -419,7 +528,7 @@ header {
     width: 100%;
     overflow: hidden;
     p {
-        font-size: 25px;
+        font-size: 25px !important;
         text-align: center;
         width: 60%;
         position: relative;
@@ -481,7 +590,7 @@ footer {
         z-index: 1;
     }
     .contact-info {
-        font-size: 20px;
+        font-size: 20px !important;
         line-height: 1.4em;
     }
     .meta {
@@ -490,13 +599,25 @@ footer {
         bottom: 10px;
         color: #aaa;
     }
+    >.logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-flow: row wrap;
+        margin: 40px 0 20px 0;
+        >img {
+            margin: 10px 20px;
+        }
+    }
 }
 
 .viewing~footer {
     opacity: 1;
     transition: opacity 0.2s 1s;
 }
-.viewing.pending~footer, .pending {
+
+.viewing.pending~footer,
+.pending {
     opacity: 0;
 }
 
@@ -505,7 +626,7 @@ button {
     height: 40px;
     border: 0;
     outline: none;
-    font-size: 20px;
+    font-size: 20px !important;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -605,7 +726,7 @@ button {
     padding-top: 20px;
     padding-left: 10%;
     margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 40px !important;
     &:after {
         content: '';
         width: 100%;
@@ -644,7 +765,7 @@ button {
     padding-left: 10%;
     margin: 0;
     margin-top: 60px;
-    font-size: 40px;
+    font-size: 40px !important;
     &:after {
         content: '';
         width: 100%;
@@ -671,7 +792,7 @@ button {
     span {
         display: block;
         padding: 20px 0 0 10%;
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
 
@@ -686,7 +807,7 @@ button {
     align-items: center;
     justify-content: center;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
-    font-size: 40px;
+    font-size: 40px !important;
     height: 100px;
     margin-top: 4px;
     text-align: center;
@@ -703,7 +824,7 @@ button {
 .ourcompany__about {
     background: $dark_green;
     color: #fff;
-    font-size: 25px;
+    font-size: 25px !important;
     position: relative;
     top: 20px;
     padding: 20px 20% 100px 20%;
@@ -739,9 +860,10 @@ button {
     align-items: center;
     justify-content: center;
     text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
-    font-size: 40px;
+    font-size: 40px !important;
     height: 100px;
     margin-top: 4px;
+    z-index: 100;
     text-align: center;
 }
 
@@ -750,9 +872,9 @@ button {
     label {
         display: block;
         margin: 20px 0 -10px 0;
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: bold;
-        text-shadow: 0 3px 4px rgba(0,0,0,0.3);
+        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
     }
     input {
         position: relative;
@@ -761,18 +883,16 @@ button {
         padding: 10px;
         border-radius: 3px;
         border: 1px solid #000;
-        outline:none;
-        font-size: 18px;
+        outline: none;
+        font-size: 18px !important;
         transition: box-shadow 0.15s;
         &:focus {
             box-shadow: 0 0 3px 1px $light_green;
         }
     }
-
     button {
         margin-top: 10px;
     }
-
     textarea {
         transition: box-shadow 0.15s;
         position: relative;
@@ -782,14 +902,12 @@ button {
         border-radius: 3px;
         resize: vertical;
         border: 1px solid #000;
-        outline:none;
-        font-size: 18px;
-
+        outline: none;
+        font-size: 18px !important;
         &:focus {
             box-shadow: 0 0 3px 1px $light_green;
         }
     }
-
     .animated.shake {
         box-shadow: 0 0 3px 1px $redish;
     }
@@ -834,7 +952,7 @@ button {
             background: #000;
             height: 5px;
             position: absolute;
-            transition: 0.3s;
+            transition: transform 0.3s;
         }
         div:nth-child(2) {
             top: 10px;
@@ -868,12 +986,23 @@ button {
                 transform: translate(-8px, -2px) rotate(45deg);
             }
         }
-        ;
+    }
+    .ourproduct {
+        >p {
+            margin: 0 10%;
+            overflow: hidden;
+        }
+        video {
+            display: none !important;
+        }
+        img {
+            float: none !important;
+        }
     }
     .nav__base .backdrop {
         opacity: 0;
         pointer-events: none;
-        transition: 0.15s;
+        transition: opacity 0.15s;
         position: fixed;
         top: 0;
         left: 0;
@@ -901,10 +1030,10 @@ button {
         height: 100%;
         z-index: -1;
         will-change: transform;
-        transition: transform 0.2s, right 0.2s;
+        transition: transform 0.2s, right 0.15s;
         right: -100%;
         .csstransforms & {
-            right: 0;
+            right: 0 !important;
             transform: translateX(102%);
         }
         .nav-open & {
@@ -1008,7 +1137,10 @@ button {
     footer {
         height: 220px;
         .contact-info {
-            font-size: 18px;
+            font-size: 18px !important;
+        }
+        >.logos {
+            margin-top: 120px;
         }
     }
     .sponsors__heading2 {
@@ -1025,7 +1157,7 @@ button {
             width: 300px;
         }
         h2 {
-            font-size: 40px;
+            font-size: 40px !important;
         }
     }
 }
