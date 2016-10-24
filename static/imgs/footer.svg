@@ -1,1 +1,8 @@
-<svg preserveAspectRatio="none" viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0l1500 120H0z"/></defs><use fill="#fff" fill-rule="evenodd" xlink:href="#a"/></svg>
+<svg preserveAspectRatio="none" viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="a" x="0" y="0" points="0 0 1500 115 1500 120 0 120"></polygon>
+        <polygon id="b" x="0" y="0" points="0 5 1500 120 0 120"></polygon>
+    </defs>
+    <use fill="#fff" fill-rule="evenodd" xlink:href="#a" />
+    <use fill="#eee" fill-rule="evenodd" xlink:href="#b" />
+</svg>

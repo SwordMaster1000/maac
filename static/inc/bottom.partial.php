@@ -6,10 +6,10 @@
 <footer>
     <div class="contact-info">
         <span>Email: <a href="mailto:machrobotics@hotmail.com">machrobotics@hotmail.com</a></span><br>
-        <span><a target="_blank" href="https://www.facebook.com/profile.php?id=100013625321857">Facebook</a></span><br>
-        <span><a target="_blank" href="https://www.instagram.com/m.a.a.c.robotics/">Instagram</a></span><br>
-        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
-    </div>
+        <span><a target="_blank" href="https://www.facebook.com/groups/740947269311691/">Facebook</a></span><br>
+<!--        <span><a target="_blank" href="https://www.instagram.com/m.a.a.c.robotics/">Instagram</a></span><br>
+--><!--        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
+-->    </div>
     <div class="logos">
         <img height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics">
         <img height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)">
