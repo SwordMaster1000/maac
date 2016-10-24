@@ -61,9 +61,9 @@
                             <a href="/projects/outreach">
                                 <div class="btn">Outreach</div>
                             </a>
-                            <a href="/projects/game">
+                            <!--<a href="/projects/game">
                                 <div class="btn">Game</div>
-                            </a>
+                            </a>-->
                         </div>
                     </div>
                 
