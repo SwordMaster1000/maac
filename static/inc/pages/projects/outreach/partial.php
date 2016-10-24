@@ -12,8 +12,8 @@
         <p class="outreach-schools">
             <span>St. Ignatius</span>
             <span>UMS Wright</span>
-            <span>Moffet Road Christian Academy </span>
             <span>Exploreum</span>
+            <span>Moffet Road Christian Academy </span>
         </p>
         <hr>
         <p class="outreach-p">
