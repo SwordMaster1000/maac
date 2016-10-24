@@ -6,7 +6,7 @@
 <footer>
     <div class="contact-info">
         <span>Email: <a href="mailto:machrobotics@hotmail.com">machrobotics@hotmail.com</a></span><br>
-        <span><a target="_blank" href="https://www.facebook.com/groups/740947269311691/">Facebook</a></span><br>
+        <span><a target="_blank" href="https://www.facebook.com/MACH-Robotics-727984313960989/">Facebook</a></span><br>
 <!--        <span><a target="_blank" href="https://www.instagram.com/m.a.a.c.robotics/">Instagram</a></span><br>
 --><!--        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
 -->    </div>
