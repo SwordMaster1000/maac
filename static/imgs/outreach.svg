@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" viewBox="0 0 1500 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <polygon id="a" x="0" y="0" points="0 110 1500 0 1500 120 0 120"></polygon>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#AD262E" fill-rule="evenodd" xlink:href="#a" />
+    </g>
+</svg>
