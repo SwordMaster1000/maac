@@ -34,12 +34,13 @@
          <span>Gulf Coast Tutoring</span>
          <span>Donaghey Orthodontics</span>
          <span>Gulf Coast Business Systems</span>
-         <span>Demos Masters</span>
+         <span>Danny Taddei</span>
          <span>Azalea Hills Christian Church</span>
+         <span>Olive Garden</span>
          <span>West Mobile Christian School</span>
+         <span>Demos Masters</span>
          <span>Chalkable, Inc.</span>
          <span>Gulf State Automation</span>
-         <span>Danny Taddei</span>
          <span>Econo Storage</span>
          <span>Erin Wainwright Photography</span>
          <span>Brian Oliver. DMD, LLC</span>

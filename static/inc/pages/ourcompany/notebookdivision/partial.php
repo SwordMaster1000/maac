@@ -14,19 +14,19 @@
        The Engineering Notebook Division is in charge of:
  <br>
  <br>
-1.  Writes a Research Paper to relate the game to how science and technology is being used in our state or region.
+1.  Writing a Research Paper to relate the game to how science and technology is being used in our state or region.
  <br>
  <br>
-2.  Creates a safety first document as evidence that safety training occurred and safe practices were followed to prevent misuse of tools and injury.
+2.  Creating a safety first document as evidence that safety training occurred and safe practices were followed to prevent misuse of tools and injury.
  <br>
  <br>
-3.  Adds pictures and support documentation in the appendices.
+3.  Adding pictures and support documentation in the appendices.
  <br>
  <br>
-4. Documents the robot team’s work with software design as evidence of a custom design and use of simulation.
+4. Documenting the Robot Division's work with software design as evidence of a custom design and use of simulation.
  <br>
  <br>
-5.  Creates a table of contents, writes a summary, and works on other documents as well.
+5.  Creating a table of contents, writing a summary, and working on other documents as well.
     </p>
 </div>
 <div class="page__base" data-remote="true" data-route="^\/ourcompany\/displaydivision\/?(.*)$"></div>

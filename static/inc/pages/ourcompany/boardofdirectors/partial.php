@@ -9,7 +9,7 @@
     </h2>
     <img width="70%" class="ourcompany__img animated fadeIn" src="/static/imgs/team/boardofdirectors.jpg" alt="Group photo of the MAAC boardofdirectors">
     <p class="ourcompany__about animated fadeIn">
-        "The Board Of Directors are a group of students who get together and decide the vision and direction of our company. In the beginning, we discuss and bring before the team a company name, marketing strategy, and company motto. Throughout the development of the company, the boardofdirectors meet to clarify and modify the vision of the company. In my opinion, the most important job of the boardofdirectors is giving the company unity."
+        "The Board Of Directors are a group of students who get together and decide the vision and direction of our company. In the beginning, we discuss and bring before the team a company name, marketing strategy, and company motto. Throughout the development of the company, the Board Of Directors meet to clarify and modify the vision of the company. In my opinion, the most important job of the Board Of Directors is giving the company unity."
         <br>
         -Raegan Andrews [President of MAAC]
     </p>

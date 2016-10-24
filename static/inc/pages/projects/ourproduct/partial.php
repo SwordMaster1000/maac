@@ -27,13 +27,13 @@
         <div class="detail">
             <img src="/static/imgs/product/wheel.png" alt="An image of the robot's wheel.">
             <h2>Wheels</h2>
-            <p>The wheels are 9" with 20 holes for us to wrap friction tape around it for a better grip on the ground.</p>
+            <p>The wheels are 9" with 20 holes for us to wrap friction tape around them for a better grip on the ground.</p>
         </div>
         <div class="detail">
             <img src="/static/imgs/product/caster.png" alt="An image of the robot's casters.">
             <h2>Casters</h2>
             <p>
-                The casters are a rectangular piece of metal, bent, with an aluminum rod through it holding a golf ball.
+                The casters are a rectangular piece of metal, bent, with an aluminum rod through them holding a golf ball.
             </p>
         </div>
         
@@ -64,7 +64,7 @@
             <img src="/static/imgs/product/arm.png" alt="An image of the robot's arm tower.">
             <h2>Arm</h2>
             <p>
-                The arm is a 4" PVC pipe cut in half for the purpose of holding corn. It is capable of extending to hold six corn.
+                The arm is a 4" PVC pipe cut in half for the purpose of holding corn. It is capable of extending to hold six ears of corn.
             </p>
         </div>
         </span>

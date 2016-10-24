@@ -17,7 +17,7 @@
     </h2>
     <img width="70%" class="ourcompany__img animated fadeIn" src="/static/imgs/team/spirit.jpg" alt="Group photo of the MAAC Robotics Division">
     <p class="ourcompany__about animated fadeIn">
-"The spirit division (also called the morale division) is in charge of uplifting the team's spirit and setting an attitude of sportsmanship while maintaining a competitive and determined edge against our competition."
+"The Spirit Division (also called the Morale Division) is in charge of uplifting the team's spirit and setting an attitude of sportsmanship while maintaining a competitive and determined edge against our competition."
 <br>
 -Samuel Werry
         <span class="hr"></span>
