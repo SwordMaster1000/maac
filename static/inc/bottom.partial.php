@@ -19,8 +19,8 @@
         <span>School: MACH</span><br>
     <span>Website by <a target="_blank" href="http://jtprogramming.com">Justin Taddei</a></span>
         <br>
-        <span>Published 10/7/2016</span><br>
-        <span>Last edited 10/7/2016</span>
+        <span>Published 10/24/2016</span><br>
+        <span>Last edited 10/24/2016</span>
     </div>
 </footer>
 <script defer src="/static/js/bundle.min.js"></script>
