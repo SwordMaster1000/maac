@@ -17,7 +17,7 @@ According to <a target="_blank" href="http://singularityhub.com">singularityhub.
     <br><br>
  Business Alabama’s “Big Data on the Farm” publication from June 2014 details that row farmers are using technology in agriculture to increase their outputs. The technology includes satellite images, GPS, modems, and computers. “Although Alabama isn’t always known for being on the cutting edge, its farming industry is relatively sophisticated, says Mack. ‘Alabama is way ahead of surrounding states when it comes to using information technology in farming, and it’s paying off.’”
     <br><br>
- Hillsboro farmers Don and Brian Glenn used resources from Auburn University and began using technology on their farm in the 1990s. The brothers became pioneers in Precision Agriculture in the state of Alabama. They minimize their inputs while maximizing their outputs of corn, soybeans, canola, and wheat. “We might not have the largest farm in Alabama, but we’re making sure we’re getting the most from every acre we do have,” Don Glenn says. “We want to be good stewards of the land and not using excessive amounts of inputs, such as insecticide and fertilizer.”
+ Hillsboro farmers Don and Brian Glenn used resources from Auburn University and began using technology on their farm in the 1990s. The brothers became pioneers in Precision Agriculture in the state of Alabama. They minimize their inputs while maximizing their outputs of corn, soybeans, canola, and wheat. “We might not have the largest farm in Alabama, but we’re making sure we’re getting the most from every acre we do have,” Don Glenn says. “We want to be good stewards of the land and not using[sic] excessive amounts of inputs, such as insecticide and fertilizer.”
 
     </p>
 </div>
