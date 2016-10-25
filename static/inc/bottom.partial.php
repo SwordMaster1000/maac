@@ -11,9 +11,9 @@
 --><!--        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
 -->    </div>
     <div class="logos">
-        <img height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics">
-        <img height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)">
-        <img height="100px" src="/static/imgs/JubileeBetTheFarm.png" alt="Bet The Farm">
+        <a href="http://www.southsbest.org/" target="_blank"><img height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics"></a>
+        <a href="http://www.bestinc.org/" target="_blank"><img height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)"></a>
+        <a href="http://www.jubileebest.org/" target="_blank"><img height="100px" src="/static/imgs/JubileeBetTheFarm.png" alt="Bet The Farm"></a>
     </div>
     <div class="meta">
         <span>School: MACH</span><br>
