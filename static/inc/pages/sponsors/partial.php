@@ -25,25 +25,25 @@
         Sponsors and Supporters
     </h2>
     <p class="animated fadeIn sponsers-all">
-         <span>Silver Ships, Inc.</span>
-         <span>Holland Industrial Services, Inc.</span>
-         <span>Port City Metal Fabrication, LLC</span>
-         <span>The Locale</span>
-         <span>Calagaz</span>
-         <span>Bloomin' Lollipops</span>
-         <span>Gulf Coast Tutoring</span>
-         <span>Donaghey Orthodontics</span>
-         <span>Gulf Coast Business Systems</span>
-         <span>Danny Taddei</span>
-         <span>Azalea Hills Christian Church</span>
-         <span>Olive Garden</span>
-         <span>West Mobile Christian School</span>
-         <span>Demos Masters</span>
-         <span>Chalkable, Inc.</span>
-         <span>Gulf State Automation</span>
-         <span>Econo Storage</span>
-         <span>Erin Wainwright Photography</span>
-         <span>Brian Oliver. DMD, LLC</span>
+         <span class="scroll-watched left">Silver Ships, Inc.</span>
+         <span class="scroll-watched left">Holland Industrial Services, Inc.</span>
+         <span class="scroll-watched left">Port City Metal Fabrication, LLC</span>
+         <span class="scroll-watched left">The Locale</span>
+         <span class="scroll-watched left">Calagaz</span>
+         <span class="scroll-watched left">Bloomin' Lollipops</span>
+         <span class="scroll-watched left">Gulf Coast Tutoring</span>
+         <span class="scroll-watched left">Donaghey Orthodontics</span>
+         <span class="scroll-watched left">Gulf Coast Business Systems</span>
+         <span class="scroll-watched left">Danny Taddei</span>
+         <span class="scroll-watched left">Azalea Hills Christian Church</span>
+         <span class="scroll-watched left">Olive Garden</span>
+         <span class="scroll-watched left">West Mobile Christian School</span>
+         <span class="scroll-watched left">Demos Masters</span>
+         <span class="scroll-watched left">Chalkable, Inc.</span>
+         <span class="scroll-watched left">Gulf State Automation</span>
+         <span class="scroll-watched left">Econo Storage</span>
+         <span class="scroll-watched left">Erin Wainwright Photography</span>
+         <span class="scroll-watched left">Brian Oliver. DMD, LLC</span>
     </p>
 </div>
 <div class="page__base" data-remote="true" data-route="^\/contactus\/?(.*)$"></div>

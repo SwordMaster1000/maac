@@ -6,14 +6,14 @@
             Order confirmation number is 36119299
         -->
         <video class="animated fadeIn js-hide-if-idevice" src="/static/imgs/videos/corn-unblured.mov" muted autoplay loop preload></video>
-        <h2>
+        <h2 class="scroll-watched">
             <span class="M">M</span>ACH<br>
             <span class="A">A</span>utomated<br>
             <span class="A2">A</span>gricultural<br>
             <span class="C">C</span>ompany<br>
         </h2>
         
-        <img width="500" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
+        <img class="scroll-watched left" width="500" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
         
     </div>
     <div class="animated fadeIn home__section1 slope-bottom">
@@ -21,19 +21,19 @@
             MAAC is a subsidiary of MACH Robotics. Our goal is to revolutionize the farming industry by providing new, safe ways to automate
             agriculture and to help your farm yield the most profitable harvests possible. This is done with the robot we named ALPHA.
         </p>
-        <a href="/projects/ourproduct"><button><span>Learn More</span></button></a>
+        <a href="/projects/ourproduct"><button class="scroll-watched right"><span>Learn More</span></button></a>
     </div>
-    <div class="animated fadeIn home__video">
+    <div class="animated home__video">
         <p>
             Using Precision Agriculture Technology, we measure the variability in soil. This allows us to provide meaningful information
             that our robots can act on, optimizing crop growth, saving you money, resources, and headaches.
             <br>
             <br> Below is an example of how our robots might see your farm.
         </p>
-        <img class="field" src="/static/imgs/field.png" alt="An example of Precision Agriculture" width="auto" height="auto">
+        <img class="field scroll-watched left" src="/static/imgs/field.png" alt="An example of Precision Agriculture" width="auto" height="auto">
     </div>
     <div class="home__cards">
-        <div class="card">
+        <div class="card scroll-watched up">
             <h2 class="title">What is ALPHA?</h2>
             <img class="robotthing" src="/static/imgs/alpha.png" alt="The ALPHA robot">
             <p class="card-detail">
@@ -42,14 +42,14 @@
             </p>
             <a href="/projects/ourproduct/"><button class="green"><span>More</span></button></a>
         </div>
-        <div class="card">
+        <div class="card scroll-watched up">
             <h2 class="title">Our Robot Division</h2>
             <p class="card-detail">
                 MACH Robotics has created robots to serve many different purposes throughout the years. From designs capable of building computers to transporting and assembling large windmill parts, we take pride in the diversity of our products.
             </p>
             <a href="/ourcompany/roboticsdivision/"><button class="green"><span>More</span></button></a>
         </div>
-        <div class="card">
+        <div class="card scroll-watched up">
             <h2 class="title">Your Success</h2>
             <!-- Public domain image from https://openclipart.org/image/300px/svg_to_png/176280/coins-2.png -->
             <img src="/static/imgs/coins.png" alt="Lots of coins" class="thumbnail">

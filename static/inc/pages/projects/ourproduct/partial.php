@@ -24,12 +24,12 @@
         </p>
         <hr>
         <span class="animated fadeIn">
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/wheel.png" alt="An image of the robot's wheel.">
             <h2>Wheels</h2>
             <p>The wheels are 9" with 20 holes for us to wrap friction tape around them for a better grip on the ground.</p>
         </div>
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/caster.png" alt="An image of the robot's casters.">
             <h2>Casters</h2>
             <p>
@@ -37,7 +37,7 @@
             </p>
         </div>
         
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/base.png" alt="An image of the robot's base.">
             <h2>Base</h2>
             <p>
@@ -45,7 +45,7 @@
             </p>
         </div>
         
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/tower.png" alt="An image of the robot's arm tower.">
             <h2>Arm Tower</h2>
             <p>
@@ -53,14 +53,14 @@
             </p>
         </div>
         
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/seed.png" alt="An image of the robot's arm tower.">
             <h2>Seed Dispenser</h2>
             <p>
                 The seed dispenser is used to collect seeds then release them over the seed holes.
             </p>
         </div>
-        <div class="detail">
+        <div class="detail scroll-watched left">
             <img src="/static/imgs/product/arm.png" alt="An image of the robot's arm tower.">
             <h2>Arm</h2>
             <p>
