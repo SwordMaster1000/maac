@@ -17,16 +17,17 @@ function throttleScroll() {
 document.addEventListener("DOMContentLoaded", scrolling, false);
 
 var scrollWatched = document.querySelectorAll('.scroll-watched');
-window.onrouterload.push(function () {
-    router.on('remoteviewloaded', function () {
+window.onrouterload.push(function() {
+    function updateWatchedElems() {
         scrollWatched = document.querySelectorAll('.scroll-watched');
         scrolling();
-    });
-    router.on('viewchanged', function () {
-        scrollWatched = document.querySelectorAll('.scroll-watched');
-        scrolling();
-    });
+    }
+
+    router.on('remoteviewloaded', updateWatchedElems);
+    router.on('viewchanged', updateWatchedElems);
 });
+
+window.addEventListener('resize', scrolling);
 
 function scrolling() {
     for (var i = 0, l = scrollWatched.length; i < l; i++) {
