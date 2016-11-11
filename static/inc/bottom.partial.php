@@ -11,11 +11,11 @@
 --><!--        <span><a target="_blank" href="https://twitter.com/MAAC_Robotics">Twitter</a></span><br>
 -->    </div>
     <div class="logos">
-        <a href="http://www.southsbest.org/" target="_blank"><img height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics"></a>
-        <a href="http://www.bestinc.org/" target="_blank"><img height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)"></a>
-        <a href="http://www.jubileebest.org/" target="_blank"><img height="100px" src="/static/imgs/JubileeBetTheFarm.png" alt="Bet The Farm"></a>
+        <a href="http://www.southsbest.org/" target="_blank"><img width="215.422px" height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics"></a>
+        <a href="http://www.bestinc.org/" target="_blank"><img width="153.078px" height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)"></a>
+        <a href="http://www.jubileebest.org/" target="_blank"><img width="110.547px" height="100px" src="/static/imgs/JubileeBetTheFarm.png" alt="Bet The Farm"></a>
     </div>
-    <div class="meta scroll-watched left">
+    <div class="meta">
         <span>School: MACH</span><br>
         <span>Website hand-coded by <a target="_blank" href="http://jtprogramming.com">Justin Taddei</a></span>
         <br>

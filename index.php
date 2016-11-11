@@ -17,7 +17,7 @@ if ($request_url === '/favicon.ico') {
     exit;
 }
 
-header('cache-control: public, no-cache');
+// header('cache-control: public, no-cache');
 
 if ($request_url === '' | $request_url === '/' || $request_url === '/index.php') {
     $request_url = '/home';

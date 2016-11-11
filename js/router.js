@@ -171,6 +171,7 @@ window.addEventListener('load', function () {
         window.onrouterload[i]();
     }
     router.on('remoteviewloaded');
+    router.on('viewchanged');
 });
 // Elements
 HTMLDivElement.prototype._spinnerTimeout = undefined;
@@ -214,7 +215,8 @@ HTMLDivElement.prototype.in = function (data) {
     console.info('ViewElement.in(', data, ')');
     if (this._isRemote() && !this.loaded)
         this._loadView(data);
-
+    
+    router.on('viewchanged');
     return new Promise(function (resolve) {
         var onTransitionEnd = function () {
             this.removeEventListener(transitionend, onTransitionEnd);

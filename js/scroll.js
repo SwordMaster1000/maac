@@ -22,10 +22,14 @@ window.onrouterload.push(function () {
         scrollWatched = document.querySelectorAll('.scroll-watched');
         scrolling();
     });
+    router.on('viewchanged', function () {
+        scrollWatched = document.querySelectorAll('.scroll-watched');
+        scrolling();
+    });
 });
 
 function scrolling() {
-    for (var i = 0; i < scrollWatched.length; i++) {
+    for (var i = 0, l = scrollWatched.length; i < l; i++) {
         var elem = scrollWatched[i];
         if (isPartiallyVisible(elem)) {
             elem.classList.add("scroll-active");
@@ -37,10 +41,7 @@ function scrolling() {
 
 function isPartiallyVisible(el) {
     var elementBoundary = el.getBoundingClientRect();
-
-    var top = elementBoundary.top;
-    var bottom = elementBoundary.bottom;
     var height = elementBoundary.height;
-
-    return ((top + height >= 0) && (height + window.innerHeight >= bottom));
+    
+    return ((elementBoundary.top + height >= 0) && (height + window.innerHeight >= elementBoundary.bottom));
 }

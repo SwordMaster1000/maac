@@ -27,15 +27,15 @@ function Form(form) {
             var input = self.inputs[i];
             if (input.required && regex[input.type] && !regex[input.type].test(input.value)) {
                 input.classList.add('animated');
-                input.classList.remove('shake');
+                input.classList.remove('headShake');
                 waitFrame((function (_input) {
                     return function () {
-                        _input.classList.add('shake');
+                        _input.classList.add('headShake');
                     };
                 })(input));
                 canSubmit = false;
             } else
-                input.classList.remove('shake');
+                input.classList.remove('headShake');
         }
         return canSubmit;
     };

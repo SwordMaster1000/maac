@@ -13,7 +13,7 @@
             <span class="C">C</span>ompany<br>
         </h2>
         
-        <img class="scroll-watched left" width="500" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
+        <img class="scroll-watched left" height="387.313px" width="500px" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
         
     </div>
     <div class="animated fadeIn home__section1 slope-bottom">

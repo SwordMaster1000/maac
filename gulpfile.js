@@ -10,6 +10,7 @@ var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
+var cssInlineImages = require('gulp-css-inline-images');
 
 function swallowError (error) {
     this.emit('end');
@@ -67,6 +68,10 @@ gulp.task('css', () => {
         .pipe(concat('all.css'))
         .on('error', swallowError)
         .pipe(sass({ compass: true }))
+        .on('error', swallowError)
+                .pipe(cssInlineImages({
+            webRoot: 'C:/xampp/htdocs'
+        }))
         .on('error', swallowError)
         .pipe(postcss([autoprefixer({
             browsers: ['last 2 versions']
