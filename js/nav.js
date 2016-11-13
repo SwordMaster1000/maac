@@ -29,7 +29,7 @@ function Nav() {
                 self.dropdownOptions[_i].classList.add('tmp_close');
                 setTimeout(function() {
                     self.dropdownOptions[_i].classList.remove('tmp_close');
-                }, 1000);
+                }, 500);
             };
         })(j));
     }

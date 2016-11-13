@@ -240,6 +240,7 @@ HTMLDivElement.prototype.out = function (data) {
         };
 
         window.nav.close();
+        document.querySelector('html').focus();
         this.classList.remove('viewing');
         this.addEventListener(transitionend, onTransitionEnd);
     }.bind(this));

@@ -17,7 +17,7 @@
     </div>
     <div class="meta">
         <span>School: MACH</span><br>
-        <span>Website hand-coded by <a target="_blank" href="http://jtprogramming.com">Justin Taddei</a></span>
+        <span>Website <span class="green">hand-coded</span> by <a target="_blank" href="http://jtprogramming.com">Justin Taddei</a></span>
         <br>
         <span>Published 10/24/2016</span><br>
         <span>Last edited 10/24/2016</span>

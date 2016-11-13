@@ -12,6 +12,13 @@ $dark_redish: #770000;
   box-sizing: border-box;
 }
 
+.red {
+  color: $redish;
+}
+.green {
+  color: $dark_green;
+}
+
 video {
   display: none;
 }
@@ -335,10 +342,11 @@ header {
   width: 100%;
   height: 400px;
   margin-top: -70px;
-  background: no-repeat url(/static/imgs/outreach.jpg?embed) center center;
-  background-size: cover;
+  background: no-repeat url(/static/imgs/outreach.jpg?embed);
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: top center;
   position: relative;
-
   &:after {
     content: '';
     width: 100%;
@@ -471,6 +479,7 @@ hr {
 
     h2 {
       font-size: 30px;
+      text-shadow: 0 3px 4px rgba(0,0,0,0.3);
     }
 
     p {
@@ -564,11 +573,11 @@ hr {
   overflow: hidden;
 
   video {
-    position: absolute;
-    top: -1%;
-    left: -1%;
+    position: fixed;
+    top: 0;
+    left: 0;
     min-width: 102%;
-    min-height: 101%;
+    min-height: 550px;
     transition: opacity 0.2s linear;
   }
 
@@ -615,7 +624,7 @@ hr {
   padding: 25px 0 60px 0;
   width: 100%;
   overflow: hidden;
-
+  background: #fff;
   p {
     font-size: 25px !important;
     text-align: center;
@@ -778,6 +787,48 @@ footer {
 .pending {
   opacity: 0;
 }
+.game-heading {
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  img {
+    margin: 15px 0;
+  }
+  button {
+    width: 200px;
+    height: 60px;
+    font-size: 25px !important;
+  }
+}
+h2.game-info {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  position: relative;
+  width: 80%;
+  border-bottom: 2px solid #000;
+  left: 10%;
+  &.red {
+    border-bottom: 0;
+    font-size: 35px;
+    text-shadow: 0 3px 4px rgba(0,0,0,0.3);
+  }
+}
+p.game-info {
+  text-align: center;
+  font-size: 18px;
+  padding: 0 20px;
+  img {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 5px;
+    margin: 15px 0;
+  }
+  
+}
 
 button {
   width: 100px;
@@ -822,6 +873,7 @@ button {
     background: $light_green;
     background-size: 100% 100%;
     background-position: center;
+    color: #fff;
   }
 }
 
@@ -863,6 +915,7 @@ button {
       margin: 0 0 10px 0;
       padding: 0 0 5px 0;
       border-bottom: 2px solid #fff;
+      text-transform: uppercase;
     }
 
     p {
@@ -891,7 +944,6 @@ button {
   padding-left: 10%;
   margin-bottom: 60px;
   font-size: 40px !important;
-
   &:after {
     content: '';
     width: 100%;
@@ -932,7 +984,6 @@ button {
   margin: 0;
   margin-top: 60px;
   font-size: 40px !important;
-
   &:after {
     content: '';
     width: 100%;
@@ -976,9 +1027,11 @@ button {
   justify-content: center;
   text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
   font-size: 40px !important;
-  height: 100px;
+  height: 120px;
+  padding-bottom: 15px;
   margin-top: 4px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .ourcompany__img {
@@ -1035,6 +1088,7 @@ button {
   margin-top: 4px;
   z-index: 100;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .contactus__form {
@@ -1079,7 +1133,7 @@ button {
     border: 1px solid #000;
     outline: none;
     font-size: 18px !important;
-
+    font-family: 'Roboto', sans-serif;
     &:focus {
       box-shadow: 0 0 3px 1px $light_green;
     }

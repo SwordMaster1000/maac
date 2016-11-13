@@ -4,7 +4,7 @@
 <div class="viewing page__base" data-route="^\/projects\/outreach\/?(.*)$">
     <div class="outreach">
         <h2 class="contactus__heading">Community Outreach</h2>
-        <div class="outreach-img"></div>
+        <div class="outreach-img" id="parallax"></div>
         <p class="outreach-p">
             Various members of our team went to the following schools to present our company and product, and encourage involvement in
             B.E.S.T.
