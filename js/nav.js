@@ -27,8 +27,9 @@ function Nav() {
         this.dropdownOptions[j].addEventListener('click', (function (_i) {
             return function () {
                 self.dropdownOptions[_i].classList.add('tmp_close');
-                setTimeout(function() {
+                setTimeout(function () {
                     self.dropdownOptions[_i].classList.remove('tmp_close');
+                    self.dropdownOptions[_i].blur();
                 }, 500);
             };
         })(j));
