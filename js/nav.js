@@ -30,6 +30,7 @@ function Nav() {
                 setTimeout(function () {
                     self.dropdownOptions[_i].classList.remove('tmp_close');
                     self.dropdownOptions[_i].blur();
+                    document.querySelector('html').focus();
                 }, 500);
             };
         })(j));
