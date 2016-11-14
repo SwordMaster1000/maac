@@ -19,7 +19,7 @@
     <div class="home__section1 slope-bottom">
         <p class="animated fadeIn">
             MAAC is a subsidiary of MACH Robotics. Our goal is to <span class="green">revolutionize</span> the farming industry by providing new, <span class="green">safe</span> ways to automate
-            agriculture and to help your farm yield the most <span class="green">profitable harvests</span> possible. This is done with the robot we named ALPHA.
+            agriculture and to help your farm yield the most <span class="green">profitable harvests</span> possible. With ALPHA, that goal can be achieved.
         </p>
         <a href="/projects/ourproduct"><button class="scroll-watched right"><span>Learn More</span></button></a>
     </div>
