@@ -1,4 +1,4 @@
-.all
-.vscode
-static/js
-static/css
+.gitignore
+.vscode/
+static/js/
+static/css/
