@@ -109,6 +109,6 @@ if (__MODE__ === 'live') {
 <meta name="msapplication-config" content="/static/imgs/favicons/browserconfig.xml?v=XBrNdv5G8a">
 <meta name="theme-color" content="#ffffff">
 
-<link rel="preload" href="/projects/ourproduct">
-<link rel="preload" href="/home">
-<link rel="preload" href="/sponsors">
+<link rel="preload" href="/projects/ourproduct?partial">
+<link rel="preload" href="/home?partial">
+<link rel="preload" href="/sponsors?partial">
