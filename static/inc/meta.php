@@ -83,15 +83,15 @@
 <meta property="og:image" content="http://jtprogramming.com/static/imgs/favicons/apple-touch-icon.png?v=XBrNdv5G8a" />
 <meta property="og:url" content="" />
 <meta property="og:description" content="" />
-<?php 
+<?php
 if (__MODE__ === 'local') {
-echo '<link rel="stylesheet" type="text/css" href="/static/css/all.min.css">';
+    echo '<link rel="stylesheet" type="text/css" href="/static/css/all.min.css">';
 }
 ?>
 <style>
-<?php 
+<?php
 if (__MODE__ === 'live') {
-include __DIR__ . '/../css/all.min.css';
+    include __DIR__ . '/../css/all.min.css';
 }
 ?>
 </style>
@@ -108,3 +108,6 @@ include __DIR__ . '/../css/all.min.css';
 <meta name="msapplication-TileImage" content="/static/imgs/favicons/mstile-144x144.png?v=XBrNdv5G8a">
 <meta name="msapplication-config" content="/static/imgs/favicons/browserconfig.xml?v=XBrNdv5G8a">
 <meta name="theme-color" content="#ffffff">
+
+<link rel="preload" href="/projects/ourproduct">
+<link rel="preload" href="/sponsors">
