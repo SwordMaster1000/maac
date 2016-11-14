@@ -27,7 +27,7 @@
         <div class="detail scroll-watched left">
             <img src="/static/imgs/product/wheel.png" alt="An image of the robot's wheel.">
             <h2>Wheels</h2>
-            <p>The wheels, with their 9" diameter, create a ratio between them and the motor that increases torque and reduces wear-and-tear.  Friction tape wrapped around the perimeter provides improved traction.</p>
+            <p>The wheels, with their 9" diameter, create a ratio between them and the motor that increases torque and reduces wear-and-tear. Friction tape wrapped around the perimeter of the wheels provides improved traction.</p>
         </div>
         <div class="detail scroll-watched left">
             <img src="/static/imgs/product/caster.png" alt="An image of the robot's casters.">
