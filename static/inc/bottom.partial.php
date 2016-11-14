@@ -13,6 +13,7 @@
     <div class="logos">
         <a href="http://www.southsbest.org/" target="_blank"><img width="215.422px" height="100px" src="/static/imgs/southsbest.jpg" alt="South's BEST Robotics"></a>
         <a href="http://www.bestinc.org/" target="_blank"><img width="153.078px" height="100px" src="/static/imgs/best.gif" alt="BEST Robotics - Boosting Engineering, Science & Technology(TM)"></a>
+        <a href="http://www.friendsofbest.org/" target="_blank"><img width="auto" height="100px" src="/static/imgs/bffbest.jpg" alt="Friends of BEST in Alabama"></a>
         <a href="http://www.jubileebest.org/" target="_blank"><img width="110.547px" height="100px" src="/static/imgs/JubileeBetTheFarm.png" alt="Bet The Farm"></a>
     </div>
     <div class="meta">
