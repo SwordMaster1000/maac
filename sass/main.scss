@@ -1083,8 +1083,8 @@ button {
   align-items: center;
   justify-content: center;
   text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
-  font-size: 40px !important;
-  height: 100px;
+  font-size: 38px !important;
+  height: 120px;
   margin-top: 4px;
   z-index: 100;
   text-align: center;
@@ -1146,7 +1146,7 @@ button {
 
 @media (min-width: 850px) {
   .scroll-watched {
-    transition: 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     opacity: 0;
     will-change: transform;
 

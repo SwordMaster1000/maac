@@ -5,15 +5,15 @@
             Web Clip: 4563710
             Order confirmation number is 36119299
         -->
-        <video class="animated fadeIn js-hide-if-idevice" src="/static/imgs/videos/corn-unblured.mov" muted autoplay loop preload></video>
-        <h2 class="scroll-watched">
+        <video id="parallax3" class="animated fadeIn js-hide-if-idevice" src="/static/imgs/videos/corn.mp4" muted autoplay loop preload></video>
+        <h2 id="parallax4" class="scroll-watched">
             <span class="M">M</span>ACH<br>
             <span class="A">A</span>utomated<br>
             <span class="A2">A</span>gricultural<br>
             <span class="C">C</span>ompany<br>
         </h2>
         
-        <img class="scroll-watched left" height="387.313px" width="500px" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
+        <img id="parallax2" class="scroll-watched left" height="387.313px" width="500px" src="/static/imgs/alpha.png" alt="Photo of ALPHA (the robot)">
         
     </div>
     <div class="animated fadeIn home__section1 slope-bottom">
