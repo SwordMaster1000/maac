@@ -110,4 +110,5 @@ if (__MODE__ === 'live') {
 <meta name="theme-color" content="#ffffff">
 
 <link rel="preload" href="/projects/ourproduct">
+<link rel="preload" href="/home">
 <link rel="preload" href="/sponsors">
