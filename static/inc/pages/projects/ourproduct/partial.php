@@ -49,7 +49,7 @@
             <img src="/static/imgs/product/tower.png" alt="An image of the robot's arm tower.">
             <h2>Arm Tower</h2>
             <p>
-                The arm tower is has been carefully designed to allow for an increased range of motion while maintaining a low center of gravity. The triangular form provides the structural strength that is needed when harvesting crops.
+                The arm tower has been carefully designed to allow for an increased range of motion while maintaining a low center of gravity. The triangular form provides the structural strength that is needed when harvesting crops.
             </p>
         </div>
         
@@ -64,7 +64,7 @@
             <img src="/static/imgs/product/arm.png" alt="An image of the robot's arm tower.">
             <h2>Arm</h2>
             <p>
-                Our collection arm is light, years ahead, and more efficient than the competition with its telescoping capacity, capable of collecting six ears of corn. The larger capacity reduces the time spent transporting crops by nearly 83% on average.
+                Our collection arm is more efficient than the competition with its telescoping capacity, capable of collecting six ears of corn. The larger capacity reduces the time spent transporting crops by nearly 83% on average.
             </p>
         </div>
         </span>
